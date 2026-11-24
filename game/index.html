@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<!-- 빌드: 2026-11-24T02:37Z -->
+<!-- 빌드: 2026-11-24T11:33Z -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>방울 — 1화 · 맹세</title>
@@ -678,9 +678,48 @@ html, body {
       n52: { type: 'text', text: '무릎이 바닥에서 떨어지고 몸이 일어섰다. 그는 앉은 채로 한 걸음 물러나 그 몸을 위에서 아래로 천천히 훑었다.', next: 'n55' },
 
       n53: { type: 'text', speaker: '쿠라', text: '돌아.', next: 'n54' },
-      n54: { type: 'text', text: '몸이 돌았다. 어깨뼈가 조금 튀어나와 있었고, 그 사이로 등 한가운데의 선이 허리까지 내려갔다. 꼬리 끝이 스탠드 빛을 받아 한 점으로 빛났다.', next: 'n55' },
+      n54: {
+        type: 'text',
+        text: '몸이 돌았다. 어깨뼈가 조금 튀어나와 있었고, 그 사이로 등 한가운데의 선이 허리까지 내려갔다. 꼬리 끝이 스탠드 빛을 받아 한 점으로 빛났다.',
+        textFull: '몸이 돌았다. 어깨뼈가 조금 튀어나와 있었고, 그 사이로 등 한가운데의 선이 허리까지 내려갔다. 허리에서 잘록해졌다가 엉덩이에서 다시 퍼지는 선이 분명했고, 그 선을 따라 털의 결이 방향을 바꾸었다. 꼬리는 허벅지 뒤로 늘어져 있었고, 꼬리 끝이 스탠드 빛을 받아 한 점으로 빛났다. 허벅지는 안쪽으로 갈수록 살이 부드러웠고, 무릎을 꿇었던 자리에 붉은 자국이 남아 있었다.',
+        next: 'n55'
+      },
 
-      n55: { type: 'text', text: '무릎을 꿇었던 자리에 붉은 자국이 남아 있었다. 그는 그 몸을 값으로 매기지 않았다. 어디를 오래 볼지 고르고 있었을 뿐이었다.', next: 'n56' },
+      n55: {
+        type: 'text',
+        text: '무릎을 꿇었던 자리에 붉은 자국이 남아 있었다. 그는 그 몸을 값으로 매기지 않았다. 어디를 오래 볼지 고르고 있었을 뿐이었다.',
+        textFull: '무릎을 꿇었던 자리에 붉은 자국이 남아 있었다. 가슴 아래로 배의 선이 내려가고, 그 선이 숨에 따라 천천히 오르내렸다. 그는 그 몸을 값으로 매기지 않았다. 어디를 오래 볼지 고르고 있었을 뿐이었다. 오래 볼 자리를 고르고 나면 그 자리를 오래 만질 것이고, 오래 만질 자리를 고르고 나면 그 자국이 오래 남을 것이다.',
+        next: 'n55a'
+      },
+
+      n55a: { type: 'text', speaker: '쿠라', text: '이리 와.', next: 'n55b' },
+      n55b: { type: 'text', text: '목줄의 고리가 조금 당겨졌다. 목이 따라 왔고, 무릎이 바닥을 짚으며 가까워졌다.', next: 'n55c' },
+      n55c: { type: 'text', speaker: '쿠라', text: '입.', next: 'n55d' },
+      n55d: {
+        type: 'text',
+        text: '턱을 눌러 입을 벌리고, 머리에 손을 얹되 누르지는 않았다. 혀가 조심스럽게 움직였다.',
+        textFull: '턱을 눌러 입을 벌리고, 머리에 손을 얹되 누르지는 않았다. 혀가 조심스럽게 움직였고, 입 안의 온도가 올라오고 침이 고이고 턱이 뻐근해지는 것이 손끝으로 전해졌다. 손과 입이 번갈아 움직이자 숨소리가 코로만 나왔다.',
+        next: 'n55e'
+      },
+      n55e: {
+        type: 'text',
+        text: '숨소리가 코로만 나왔다. 각도를 바꿀 때마다 목이 따라왔고, 그는 재촉하지 않았다.',
+        textFull: '숨소리가 코로만 나왔다. 각도를 조금씩 바꿀 때마다 목이 따라왔고, 따라오는 것을 그는 재촉하지 않았다. 오늘은 이 사람이 어디까지 스스로 받아들이는지를 보고 싶었다.',
+        next: 'n55f'
+      },
+      n55f: {
+        type: 'text',
+        text: '사정이 가까워지자 허벅지가 먼저 떨렸다. 그 뒤의 일은 오래 걸리지 않았다.',
+        textFull: '사정이 가까워지자 허벅지가 먼저 떨렸다. 압이 한 곳으로 몰리고 숨이 짧아졌으며, 말이 끊겼다. 첫 파도에 몸이 굳었고, 두 번째에 풀렸다. 파도는 세 번, 네 번 이어졌고, 양이 한 번에 다 나오지 않아 입가로 넘쳤으며, 턱과 목으로 흐르는 것이 눈으로 확인되었다. 점도가 진해서 흐르는 속도가 느렸고, 목에 붙어 넘어가는 것이 삼키는 동안 목이 움직이는 것으로 보였다. 방 안에 짠 냄새가 남았고, 자기 숨이 새는 소리와 젖은 소리가 겹쳤다.',
+        next: 'n55g'
+      },
+      n55g: { type: 'text', speaker: '쿠라', text: '삼켜.', next: 'n55h' },
+      n55h: {
+        type: 'text',
+        text: '한 번에 삼켜지지 않아 두 번, 세 번에 나눠 삼켰다. 고개를 들자 입가에 남은 것이 있었다.',
+        textFull: '한 번에 삼켜지지 않아서 두 번, 세 번에 나눠 삼켰다. 삼킬 때마다 목이 붙는 것이 보였고, 마지막에 남은 것이 입가에 묻어 있었다. 고개를 들자 입과 성기 사이에 줄이 하나 이어져 있었다. 끊어지지 않고 늘어났고, 늘어날수록 가늘어졌으며, 방의 빛을 받아 한 줄로 반짝였다. 그는 그 줄을 손가락으로 끊어 주었다. 손가락에 붙은 것이 미지근했고, 손을 씻은 뒤에도 한동안 남아 있었다.',
+        next: 'n56'
+      },
       n56: { type: 'text', speaker: '쿠라', text: '오늘은 여기까지.', next: 'n57' },
       n57: { type: 'text', text: '명령이 아니라 선언이었다. 그는 목줄을 풀고, 목덜미를 문지르고, 손목을 한 번 잡아 주었다.', next: 'n58' },
       n58: { type: 'text', text: '손목에 붉은 선이 하나 남아 있었고, 목덜미에는 이빨 자국이 있었다. 그는 그 자국을 손끝으로 짚어 보고 나서 물을 가지러 갔다.', next: 'n59' },
@@ -779,8 +818,18 @@ html, body {
       m44: { type: 'text', speaker: '쿠라', text: '이리 와.', next: 'm45' },
       m45: { type: 'text', text: '목줄을 당겨 가까이 끌어왔다. 무릎으로 기어오는 동안 꼬리가 바닥을 쓸었고, 그는 손을 멈추지 않았다.', next: 'm46' },
       m46: { type: 'text', speaker: '쿠라', text: '입.', next: 'm47' },
-      m47: { type: 'text', text: '턱을 눌러 입을 벌리고, 머리에 손을 얹되 누르지는 않았다. 입 안의 온도가 올라오고 침이 고이고 턱이 뻐근해지는 것이 손끝으로 전해졌고, 숨소리가 코로만 나왔다.', next: 'm48' },
-      m48: { type: 'text', text: '각도를 조금씩 바꿀 때마다 목이 따라왔고, 따라오는 것을 그는 재촉하지 않았다. 사정이 가까워지자 허벅지가 먼저 떨렸다.', next: 'm49' },
+      m47: {
+        type: 'text',
+        text: '턱을 눌러 입을 벌리고, 머리에 손을 얹되 누르지는 않았다. 입 안의 온도가 올라오고 침이 고이고 턱이 뻐근해지는 것이 손끝으로 전해졌고, 숨소리가 코로만 나왔다.',
+        textFull: '턱을 눌러 입을 벌리고, 머리에 손을 얹되 누르지는 않았다. 혀가 조심스럽게 움직였고, 입 안의 온도가 올라오고 침이 고이고 턱이 뻐근해지는 것이 손끝으로 전해졌다. 손과 입이 번갈아 움직이자 숨소리가 코로만 나왔다. 젖은 소리가 방 안에서 조금 크게 들렸고, 그 소리를 자기가 내고 있다는 것을 들켰다.',
+        next: 'm48'
+      },
+      m48: {
+        type: 'text',
+        text: '각도를 조금씩 바꿀 때마다 목이 따라왔고, 따라오는 것을 그는 재촉하지 않았다. 사정이 가까워지자 허벅지가 먼저 떨렸다.',
+        textFull: '각도를 조금씩 바꿀 때마다 목이 따라왔고, 따라오는 것을 그는 재촉하지 않았다. 사정이 가까워지자 허벅지가 먼저 떨렸고, 압이 한 곳으로 몰리고 숨이 짧아졌으며, 말이 끊겼다. 첫 파도에 몸이 굳었고, 두 번째에 풀렸다. 파도는 세 번, 네 번 이어졌고, 양이 한 번에 다 나오지 않아 입가로 넘쳤으며, 턱과 목으로 흐르는 것이 눈으로 확인되었다.',
+        next: 'm49'
+      },
       m49: {
         type: 'choice',
         prompt: '고개를 들라는 말이 떨어졌다. 어떻게 할까.',
@@ -789,9 +838,24 @@ html, body {
           { text: '고개를 돌린다', next: 'm51', stat: { resist: 1 }, set: { c2_turn: true } }
         ]
       },
-      m50: { type: 'text', text: '목이 움직였고, 삼키는 데 두 번, 세 번이 걸렸다. 고개를 들자 무언가가 아직 따라와 있었다. 늘어나고, 가늘어지고, 작게 끊어져 턱에 떨어졌다.', next: 'm52' },
-      m51: { type: 'text', text: '고개가 돌아갔다. 그는 멈추지 않았고, 멈추지 않는 것이 오히려 대답이었다. 돌린 얼굴 위로 무언가가 흘렀고, 그것을 닦아 주는 손이 조금 전까지 턱을 잡고 있던 손과 같은 손이었다.', next: 'm52' },
-      m52: { type: 'text', text: '손가락이 그것을 닦아 주었다. 닦는 손이 조금 전까지 누르고 있던 손과 같은 손이었다.', next: 'm53' },
+      m50: {
+        type: 'text',
+        text: '목이 움직였고, 삼키는 데 두 번, 세 번이 걸렸다. 고개를 들자 무언가가 아직 따라와 있었다. 늘어나고, 가늘어지고, 작게 끊어져 턱에 떨어졌다.',
+        textFull: '목이 움직였고, 삼키는 데 두 번, 세 번이 걸렸다. 점도가 진해서 목에 붙는 것이 분명했고, 한 번에 넘어가지 않아 나눠 삼킬 때마다 목이 막히는 것 같았다. 짠맛이 먼저 왔고, 그 뒤에 비릿한 것이 늦게 남았다. 고개를 들자 무언가가 아직 따라와 있었다. 늘어나고, 가늘어지고, 작게 끊어져 턱에 떨어졌다. 그 온도가 아주 작았는데도 오래 남았다.',
+        next: 'm52'
+      },
+      m51: {
+        type: 'text',
+        text: '고개가 돌아갔다. 그는 멈추지 않았고, 멈추지 않는 것이 오히려 대답이었다. 돌린 얼굴 위로 무언가가 흘렀고, 그것을 닦아 주는 손이 조금 전까지 턱을 잡고 있던 손과 같은 손이었다.',
+        textFull: '고개가 돌아갔다. 그는 멈추지 않았고, 멈추지 않는 것이 오히려 대답이었다. 돌린 얼굴 위로 무언가가 흘렀고, 볼을 타고 흐른 것이 귀 밑에서 멈췄다. 고개를 돌린 채로 삼키자 목이 조금 늦게 움직였다. 그것을 닦아 주는 손이 조금 전까지 턱을 잡고 있던 손과 같은 손이었다.',
+        next: 'm52'
+      },
+      m52: {
+        type: 'text',
+        text: '손가락이 그것을 닦아 주었다. 닦는 손이 조금 전까지 누르고 있던 손과 같은 손이었다.',
+        textFull: '손가락이 그것을 닦아 주었다. 닦는 손이 조금 전까지 누르고 있던 손과 같은 손이었다. 눈시울이 붉어 있었고, 코끝이 시큰했다. 그 손가락이 다정한 것이 오히려 더 무서웠다. 자기를 닦아 주는 손이, 조금 전까지 자기를 누르고 있던 손과 같은 손이었다.',
+        next: 'm53'
+      },
       m53: { type: 'text', speaker: '쿠라', text: '오늘은 여기까지.', next: 'm54' },
       m54: { type: 'text', text: '명령이 아니라 선언이었다. 목줄을 풀고 목덜미를 문지르고, 손목의 붉은 선을 확인했다. 어제의 선 위에 오늘의 선이 겹쳐 있었다.', next: 'm55' },
       m55: { type: 'text', text: '그 선을 손끝으로 짚어 보고 나서 물을 가지러 갔다. 돌아와서 옆자리에 앉았다. 어깨가 닿을 정도의 거리였고, 그 거리에서 아무 말도 하지 않았다.', next: 'm56' },
@@ -807,15 +871,35 @@ html, body {
       m63: { type: 'text', text: '목이 움직이는 것을 누가 보고 있다는 것이 부끄러웠다. 머리에 손이 얹히고 한 번 쓰다듬어졌다. 귀가 접혔고, 접힌 귀가 손을 피하지 않았다.', next: 'm64' },
       m64: { type: 'text', text: '피하지 않는 것이 좋다는 뜻은 아니었다. 다만 피하고 싶지 않았다. 그 정도는 자기가 정할 수 있었다.', next: 'm65' },
       m65: { type: 'text', text: '하나 더 하라고 했다. 이번에는 입이 먼저 벌어졌다. 시키지 않았는데 벌어졌고, 벌어진 것을 자기가 알아차리고 나서 얼굴이 뜨거워졌다.', next: 'm66' },
-      m66: { type: 'text', text: '손가락이 혀에 닿았고, 그 손가락이 빠지지 않았다. 삼키려 하자 손가락이 조금 따라 들어왔고, 목이 그것을 밀어냈다. 밀어내는 것이 명령을 어기는 것인지 몰라서 몸이 굳었다.', next: 'm67' },
+      m66: {
+        type: 'text',
+        text: '손가락이 혀에 닿았고, 그 손가락이 빠지지 않았다. 삼키려 하자 손가락이 조금 따라 들어왔고, 목이 그것을 밀어냈다. 밀어내는 것이 명령을 어기는 것인지 몰라서 몸이 굳었다.',
+        textFull: '손가락이 혀에 닿았고, 그 손가락이 빠지지 않았다. 혀가 그 손가락을 감았고, 침이 고여 입가로 흘렀다. 삼키려 하자 손가락이 조금 따라 들어왔고, 목이 그것을 밀어냈다. 밀어내는 것이 명령을 어기는 것인지 몰라서 몸이 굳었다. 굳은 채로 목이 조금씩 움직였고, 그 움직임을 들키고 있었다.',
+        next: 'm67'
+      },
       m67: { type: 'text', text: '굳은 것을 그는 풀어 주지 않았다. 손가락을 그대로 두고 눈만 내려다보았다. 몇 초 뒤에 목이 다시 움직였고, 이번에는 밀어내지 않았다. 밀어내지 않은 것이 자기가 결정한 것인지, 그냥 몸이 그렇게 한 것인지 알 수 없었다. 알 수 없는 채로 넘어갔다.', next: 'm68' },
       m68: { type: 'text', text: '목줄이 목덜미에 놓였다. 어제 눌린 자리 위에 가죽이 다시 닿았고, 버클이 잠기는 소리가 아주 작았다. 고리가 당겨졌다. 목이 따라 갔고, 턱이 들렸다.', next: 'm69' },
       m69: { type: 'text', text: '목덜미에 입이 닿았고, 이빨이 아주 천천히 세워졌다. 어제의 자국 위에 새 자국이 겹치는 것이 느껴졌다. 열이 남았고, 어깨가 떨렸고, 떨림이 멈추기를 기다리는 시간이 있었다. 그 시간에 자기는 자기가 떨고 있는 것을 들키고 있었다.', next: 'm70' },
       m70: { type: 'text', text: '옷깃이 열리고 손바닥이 가슴을 쓸었다. 어제 남긴 자리 위로 손바닥이 지나가자 숨이 끊겼다. 굳어지는 것을 들키는 게 부끄러웠다. 공기가 그 자리를 지나갈 때마다 차가운 것이 남았다.', next: 'm71' },
       m71: { type: 'text', text: '이리 오라고 했다. 목줄이 당겨졌고, 무릎으로 기어오는 동안 꼬리가 바닥을 쓸었다. 손이 멈추지 않았고, 멈추지 않는 것이 무서웠다. 무섭지 않다고 생각했다.', next: 'm72' },
-      m72: { type: 'text', text: '턱이 눌려 입이 벌어졌다. 턱이 뻐근해지고, 목이 눌려서 코로 숨을 몰아쉬었으며, 머리에 얹힌 손이 누르지 않는 것이 오히려 더 무서웠다. 각도가 바뀔 때마다 목이 따라갔고, 따라가는 것을 멈출 수 없었다.', next: 'm73' },
-      m73: { type: 'text', text: '끝이 오기 전에 허벅지가 떨리는 것이 먼저 느껴졌다. 그 다음에 온도가 올라왔고, 목 안쪽이 먼저 알아차렸다. 삼키는 데 두 번, 세 번이 걸렸다. 따뜻한 것이 목을 지나간 자리가 한동안 남았다.', next: 'm74' },
-      m74: { type: 'text', text: '고개를 들었을 때 무언가가 아직 따라와 있었다. 손가락이 입가를 닦아 주었다. 닦는 손이 조금 전까지 자기를 누르고 있던 손과 같은 손이었다.', next: 'm75' },
+      m72: {
+        type: 'text',
+        text: '턱이 눌려 입이 벌어졌다. 턱이 뻐근해지고, 목이 눌려서 코로 숨을 몰아쉬었으며, 머리에 얹힌 손이 누르지 않는 것이 오히려 더 무서웠다. 각도가 바뀔 때마다 목이 따라갔고, 따라가는 것을 멈출 수 없었다.',
+        textFull: '턱이 눌려 입이 벌어졌다. 혀가 조심스럽게 움직였고, 턱이 뻐근해지고, 목이 눌려서 코로 숨을 몰아쉬었으며, 머리에 얹힌 손이 누르지 않는 것이 오히려 더 무서웠다. 각도가 바뀔 때마다 목이 따라갔고, 따라가는 것을 멈출 수 없었다. 침이 고여 넘어가지 못하고 입가에 맺혔다.',
+        next: 'm73'
+      },
+      m73: {
+        type: 'text',
+        text: '끝이 오기 전에 허벅지가 떨리는 것이 먼저 느껴졌다. 그 다음에 온도가 올라왔고, 목 안쪽이 먼저 알아차렸다. 삼키는 데 두 번, 세 번이 걸렸다. 따뜻한 것이 목을 지나간 자리가 한동안 남았다.',
+        textFull: '끝이 오기 전에 허벅지가 떨리는 것이 먼저 느껴졌다. 그 다음에 온도가 올라왔고, 양이 생각보다 많았으며, 점도가 혀에 붙는 것이 분명했다. 한 번에 다 받아지지 않아서 입가로 넘쳤고, 넘친 것이 턱으로 흐르는 것이 느껴졌다. 목 안으로 넘어갈 때 목이 눌렸고, 넘어가는 동안 맛이 늦게 왔다. 짠맛이 먼저였고, 그 뒤에 비릿한 것이 남았다. 점도가 진해서 목에 붙는 것이 분명했고, 한 번에 넘어가지 않아서 두 번, 세 번에 나눠 삼켰다. 따뜻한 것이 목을 지나간 자리가 한동안 남았고, 그 자리에 손을 대 보고 싶었지만 손은 뒤로 묶여 있었다.',
+        next: 'm74'
+      },
+      m74: {
+        type: 'text',
+        text: '고개를 들었을 때 무언가가 아직 따라와 있었다. 손가락이 입가를 닦아 주었다. 닦는 손이 조금 전까지 자기를 누르고 있던 손과 같은 손이었다.',
+        textFull: '고개를 들었을 때 무언가가 아직 따라와 있었다. 입을 떼려는데 늘어나는 것이 느껴졌고, 고개를 들면 들수록 가늘어졌으며, 마지막에 작게 끊어져 턱에 떨어졌다. 그 온도가 아주 작았는데도 오래 남았다. 손가락이 입가를 닦아 주었다. 눈시울이 붉어 있었고, 코끝이 시큰했다. 닦는 손이 조금 전까지 자기를 누르고 있던 손과 같은 손이었다.',
+        next: 'm75'
+      },
       m75: { type: 'text', text: '목줄이 풀렸을 때 목덜미가 조금 시원했고, 그 시원함이 아쉬웠다. 손목의 붉은 선은 어제의 선 위에 오늘의 선이 겹쳐 있었다. 짚어 보았고, 아프지 않았다.', next: 'm76' },
       m76: { type: 'text', text: '어깨가 닿을 만한 거리에 그가 앉았다. 아무 말도 하지 않았고, 자기도 아무 말도 하지 않았다.', next: 'm77' },
       m77: { type: 'text', text: '그런데 오늘은 어제와 달랐다. 오늘은 자기가 먼저 물었다. 문자로, 두 번. 답이 오기까지 삼십 초를 세었고, 세는 동안 휴대폰을 뒤집었다 엎었다 했다.', next: 'm78' },
@@ -913,7 +997,7 @@ html, body {
   var TICK = 22;
 
   /* ── 설정 ── */
-  var SETTINGS = { fs: 1, autoDelay: 2200, sfx: true, tick: 22, bgm: false };
+  var SETTINGS = { fs: 1, autoDelay: 2200, sfx: true, tick: 22, bgm: false, full: false };
   try {
     var s = JSON.parse(localStorage.getItem(SET_KEY) || '{}');
     if (typeof s.fs === 'number') SETTINGS.fs = Math.min(1.5, Math.max(0.8, s.fs));
@@ -921,6 +1005,7 @@ html, body {
     if (typeof s.sfx === 'boolean') SETTINGS.sfx = s.sfx;
     if (typeof s.tick === 'number') SETTINGS.tick = s.tick;
     if (typeof s.bgm === 'boolean') SETTINGS.bgm = s.bgm;
+    if (typeof s.full === 'boolean') SETTINGS.full = s.full;
   } catch (e) { /* 기본값 */ }
 
   function saveSettings() {
@@ -1124,15 +1209,17 @@ html, body {
     markRead(state.id);
 
     if (n.type === 'text') {
-      el.text.dataset.full = n.text;
-      log.push({ speaker: n.speaker || '', text: n.text });
-      if (wasRead || skipOn) { showInstant(n.text); scheduleNext(); }
-      else { stopSkip(); typeOut(n.text, scheduleNext); }
+      var body = (SETTINGS.full && n.textFull) ? n.textFull : n.text;
+      el.text.dataset.full = body;
+      log.push({ speaker: n.speaker || '', text: body });
+      if (wasRead || skipOn) { showInstant(body); scheduleNext(); }
+      else { stopSkip(); typeOut(body, scheduleNext); }
     } else if (n.type === 'choice') {
       stopSkip();
-      el.text.dataset.full = n.prompt || '……';
-      if (wasRead) { showInstant(n.prompt || '……'); showChoices(); }
-      else typeOut(n.prompt || '……', function () { showChoices(); });
+      var pr = (SETTINGS.full && n.promptFull) ? n.promptFull : (n.prompt || '……');
+      el.text.dataset.full = pr;
+      if (wasRead) { showInstant(pr); showChoices(); }
+      else typeOut(pr, function () { showChoices(); });
     }
     el.hint.textContent = n.type === 'choice' ? '선택지를 고르세요'
       : (wasRead ? '읽은 대사 · 클릭 또는 Space' : '클릭 또는 Space');
@@ -1177,6 +1264,20 @@ html, body {
     clearTimeout(autoTimer);
     stopSkip();
     sfx('end');
+  }
+
+  function refreshText() {
+    var n;
+    try { n = CORE.node(SC, state); } catch (e) { return; }
+    if (n.type === 'text') {
+      var b = (SETTINGS.full && n.textFull) ? n.textFull : n.text;
+      el.text.dataset.full = b;
+      el.text.textContent = b;
+    } else if (n.type === 'choice') {
+      var p = (SETTINGS.full && n.promptFull) ? n.promptFull : (n.prompt || '……');
+      el.text.dataset.full = p;
+      el.text.textContent = p;
+    }
   }
 
   function chapterTitle(id) {
@@ -1467,6 +1568,31 @@ html, body {
     bgCtrl.appendChild(bgOn); bgCtrl.appendChild(bgOff);
     bgRow.appendChild(bgLabel); bgRow.appendChild(bgCtrl);
     el.panelBody.appendChild(bgRow);
+
+    /* 수위판 */
+    var flRow = mkRow('set-row');
+    var flLabel = document.createElement('span');
+    flLabel.className = 'set-label';
+    flLabel.textContent = '수위판 (성인)';
+    var flCtrl = mkRow('set-ctrl seg');
+    var flOn = document.createElement('button');
+    flOn.textContent = '켜짐';
+    var flOff = document.createElement('button');
+    flOff.textContent = '꺼짐';
+    function paintFull() {
+      flOn.classList.toggle('on', SETTINGS.full);
+      flOff.classList.toggle('on', !SETTINGS.full);
+    }
+    flOn.addEventListener('click', function () {
+      SETTINGS.full = true; saveSettings(); paintFull(); refreshText();
+    });
+    flOff.addEventListener('click', function () {
+      SETTINGS.full = false; saveSettings(); paintFull(); refreshText();
+    });
+    paintFull();
+    flCtrl.appendChild(flOn); flCtrl.appendChild(flOff);
+    flRow.appendChild(flLabel); flRow.appendChild(flCtrl);
+    el.panelBody.appendChild(flRow);
 
     var note = document.createElement('p');
     note.className = 'panel-note';
